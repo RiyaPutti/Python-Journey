@@ -1,0 +1,8 @@
+| Concept             | Description                                |
+| ------------------- | ------------------------------------------ |
+| `input()`           | Takes user input as a string               |
+| `int()` / `float()` | Type conversion (string → number)          |
+| Arithmetic ops      | +, -, \*, /, \*\*                          |
+| `print()`           | Displays output                            |
+| `f"{}"`             | String formatting for clean output         |
+| `round(val, 2)`     | Limits float precision to 2 decimal points |

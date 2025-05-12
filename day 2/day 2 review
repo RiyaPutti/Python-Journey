@@ -1,0 +1,42 @@
+
+### ✅ **Syntax Snapshot:**
+
+```python
+if condition:
+    # do something
+elif another_condition:
+    # do something else
+else:
+    # fallback
+```
+
+---
+
+### ⚙️ **Operators Cheat Code:**
+
+| Operator | Meaning          | Example  |
+| -------- | ---------------- | -------- |
+| `==`     | Equals to        | `a == b` |
+| `!=`     | Not equal to     | `a != b` |
+| `>`      | Greater than     | `a > b`  |
+| `<`      | Less than        | `a < b`  |
+| `>=`     | Greater or equal | `a >= b` |
+| `<=`     | Less or equal    | `a <= b` |
+
+---
+
+### 🔎 **Quick Use Cases:**
+
+* 🔐 **Password checker** → validate length
+* 🗳️ **Voter eligibility** → check age
+* 🧮 **Grade calculator** → if-elif chain for ranges
+* 🧠 **Even/Odd** → `num % 2 == 0`
+
+---
+
+### 🧠 **Pro Tips:**
+
+* Always test **edge cases** (like `age = 18`)
+* Keep your `elif` conditions **mutually exclusive**
+* Avoid unnecessary nesting for readability
+

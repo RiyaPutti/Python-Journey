@@ -1,0 +1,105 @@
+
+## 🔁 **Loops Recap** – Python’s way of saying “Do it again!”
+
+---
+
+### ➤ **While Loop**
+
+* Syntax:
+
+  ```python
+  while condition:
+      do_something()
+  ```
+* Runs as long as the condition is **True**
+* Be careful! Can cause **infinite loops** if condition never becomes False
+
+**Example**:
+
+```python
+count = 1  
+while count <= 5:  
+    print(count)  
+    count += 1  
+```
+
+---
+
+### ➤ **For Loop**
+
+* Used to iterate over **lists, strings, ranges, files**, etc.
+* Automatically stops when it reaches the end
+
+**Example**:
+
+```python
+for i in range(3):  
+    print(i)  
+```
+
+### ➤ **Nested Loops**
+
+* Loop inside another loop
+* Used for things like tables, grids, pattern problems
+
+---
+
+## 📁 **File Handling** – Python’s journal entry ✍️
+
+---
+
+### 📌 Opening Files:
+
+```python
+with open("filename.txt", "mode") as f:
+    # do stuff
+```
+
+| Mode  | Purpose                  |
+| ----- | ------------------------ |
+| `'r'` | Read (default)           |
+| `'w'` | Write (overwrites)       |
+| `'a'` | Append                   |
+| `'x'` | Create (fails if exists) |
+
+✅ `with` block handles closing the file for you — safe & clean.
+
+---
+
+### 📌 Reading from Files:
+
+```python
+f.read()         # Reads entire content  
+f.readline()     # Reads one line  
+f.readlines()    # Reads all lines into a list  
+```
+
+### 📌 Writing to Files:
+
+```python
+f.write("Hello!")  # Writes exactly what you give it  
+```
+
+---
+
+## 🧯 **Bonus: File Error Handling**
+
+```python
+try:
+    with open("unknown.txt") as f:
+        data = f.read()
+except FileNotFoundError:
+    print("File not found!")
+```
+
+* 🛡️ Prevents program from crashing when file doesn’t exist
+
+---
+
+### 🧠 After Day 6, you can:
+
+* Loop over anything (and even loop inside loops)
+* Read/write files like a baby hacker
+* Handle file errors like a pro
+
+

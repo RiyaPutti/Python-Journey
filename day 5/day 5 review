@@ -1,0 +1,92 @@
+
+# 🌈 **1. Tuples**
+
+### 🔒 Immutable Lists
+
+* Created using `()` like: `my_tuple = (1, 2, 3)`
+* You **can’t** add, delete, or modify values.
+* Use when you want data to be protected.
+
+### 🧠 Must-Know Tricks:
+
+| Operation | Code Example        |
+| --------- | ------------------- |
+| Access    | `t[0]` → First item |
+| Unpack    | `a, b = (1, 2)`     |
+| Length    | `len(t)`            |
+
+> ⚠️ Think of a tuple like a sealed Tupperware — you can look, but not stir.
+
+---
+
+# 📦 **2. Dictionaries**
+
+### 🗂️ Key-Value Storage
+
+* Made with `{}` like: `student = {"name": "Riya", "age": 20}`
+* Access with the key: `student["name"]`
+
+### 🧠 Must-Know Tricks:
+
+| Operation  | Code Example                       |
+| ---------- | ---------------------------------- |
+| Add/Update | `student["grade"] = "A+"`          |
+| Remove     | `del student["age"]`               |
+| Loop       | `for key in student:`              |
+| Get safely | `student.get("city", "Not Found")` |
+
+> 🔑 If lists are numbered lockers, dicts are labeled mailboxes.
+
+---
+
+# 🧼 **3. Sets**
+
+### 🧽 Unique Values Only
+
+* Made with `{}` like: `my_set = {1, 2, 3}`
+* Duplicates are ignored!
+
+### 🧠 Must-Know Tricks:
+
+| Operation        | Code Example  |
+| ---------------- | ------------- |
+| Add item         | `s.add(4)`    |
+| Remove item      | `s.remove(2)` |
+| Check membership | `if 3 in s:`  |
+
+> ✨ Sets are like VIP lists — no duplicates, only exclusives.
+
+---
+
+# 💣 **4. Error Handling**
+
+### 🚫 No More Program Crashes
+
+* Use `try...except` to handle errors safely
+
+```python
+try:
+    risky_code()
+except SomeError:
+    handle_it()
+```
+
+### 🧠 Common Errors to Catch:
+
+| Error Name          | Happens When…                    |
+| ------------------- | -------------------------------- |
+| `ZeroDivisionError` | You divide by zero               |
+| `ValueError`        | Convert invalid string to number |
+| `KeyError`          | Access a non-existent dict key   |
+
+> 🛡️ Exception handling = wearing a helmet while coding.
+
+---
+
+## 🧠 After Day 5, you can:
+
+✅ Group info with tuples (unchangeable)
+✅ Store & retrieve data using keys (dicts)
+✅ Keep only unique items (sets)
+✅ Prevent crashes with error handling
+

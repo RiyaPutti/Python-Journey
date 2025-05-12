@@ -1,0 +1,59 @@
+
+### ✅ **For Loop:**
+
+```python
+for i in range(start, stop):
+    # code block
+```
+
+* Runs from `start` to `stop - 1`
+* Great for counting, repetition, iterating over a sequence
+
+---
+
+### ✅ **While Loop:**
+
+```python
+while condition:
+    # keep doing this
+```
+
+* Repeats as long as condition is `True`
+* Use it when you **don’t know how many times** it needs to run (e.g., retry logic)
+
+---
+
+### ⚙️ **Loop Tools:**
+
+| Function      | What it does         | Example                |
+| ------------- | -------------------- | ---------------------- |
+| `range(n)`    | Generates 0 to n-1   | `range(5)` → 0,1,2,3,4 |
+| `range(a, b)` | a to b-1             | `range(1, 6)` → 1 to 5 |
+| `+=`          | Increment and assign | `x += 1`               |
+
+---
+
+### 🔁 **Use Cases to Remember:**
+
+* 🔢 **Print 1–10** → `for i in range(1, 11)`
+* ➕ **Sum 1–n** → loop + accumulator
+* ✖️ **Multiplication Table** → `for i in range(1,11)`
+* 🔒 **Password loop** → `while` until correct
+
+---
+
+### 🧠 **Pro Tips:**
+
+* Use `for` when you know how many times to repeat
+* Use `while` when you're waiting on a **condition**
+* Track values inside loops using print/debug
+* Always make sure `while` has an **exit condition** to avoid infinite loops
+
+---
+
+### 💡 Bonus:
+
+Use `break` to **exit** a loop early, and `continue` to **skip** to the next iteration.
+
+---
+
