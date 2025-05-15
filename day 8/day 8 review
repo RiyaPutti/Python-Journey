@@ -1,0 +1,80 @@
+
+
+
+> 🔍 *Focus: Strings, Loops, Conditionals, Functions, Math Logic*
+
+
+### 🔢 **1. Prime Number Checker**
+
+* ✅ Checks if a number has only two factors (1 and itself)
+* **Logic:** Divide num from 2 to √num and see if divisible
+* **Concepts:** `range()`, `for loop`, `if-else`, flags
+
+---
+
+### 🔺 **2. Max of Three Numbers**
+
+* ✅ Compares 3 numbers using conditionals
+* **Logic:** Use simple nested `if-elif-else` structure
+* **Concepts:** `if`, `elif`, `else`, comparison operators
+
+---
+
+### 🧮 **3. Basic Calculator**
+
+* ✅ Adds, subtracts, multiplies, divides based on input
+* **Logic:** Match operator with corresponding math action
+* **Concepts:** `input()`, type casting, conditionals, functions
+
+---
+
+### 🔡 **4. Vowel Counter**
+
+* ✅ Counts how many vowels in a given string
+* **Logic:** Loop through string, check if char in `'aeiou'`
+* **Concepts:** Loops, string membership using `in`
+
+---
+
+### 🔁 **5. Reverse a String**
+
+* ✅ Reverses a string using slicing
+* **Logic:** `s[::-1]` gives reverse of string
+* **Concepts:** String slicing, functions
+
+---
+
+### 💎 **6. Armstrong Number Checker** (NEW)
+
+* ✅ Checks if sum of digits^power == original number
+* **Logic:** Convert num to string → loop digits → raise to power → sum
+* **Concepts:** `str()`, `**`, `sum()`, list comp
+
+---
+
+### 🤝 **7. GCD (Greatest Common Divisor)** (NEW)
+
+* ✅ Uses Euclidean Algorithm to get GCD
+* **Logic:** Replace `(a, b)` with `(b, a % b)` until b==0
+* **Concepts:** Loops, modulo `%`, tuple unpacking
+
+---
+
+### 🧮 **8. Count Uppercase, Lowercase, Digits, Specials**
+
+* ✅ Analyzes characters in a string
+* **Logic:** Use `.isupper()`, `.islower()`, `.isdigit()` to classify
+* **Concepts:** String methods, loop, counters
+
+---
+
+### ⚙️ Concepts Solidified Today:
+
+* Conditionals (if-else)
+* Functions
+* Loops (for & while)
+* String operations & slicing
+* Type conversion
+* Logical thinking through math patterns
+
+
